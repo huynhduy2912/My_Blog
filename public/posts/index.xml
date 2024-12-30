@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My Blog</title>
-    <link>https://example.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on My Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Dec 2024 12:44:21 +0700</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tại Sao Nên Học Java?</title>
-      <link>https://example.org/posts/post9/</link>
+      <link>http://localhost:1313/posts/post9/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:21 +0700</pubDate>
-      <guid>https://example.org/posts/post9/</guid>
+      <guid>http://localhost:1313/posts/post9/</guid>
       <description>&lt;p&gt;Java có tính đa nền tảng nhờ vào Java Virtual Machine (JVM).&lt;/p&gt;&#xA;&lt;p&gt;Ngôn ngữ mạnh mẽ, dễ đọc, dễ học với cộng đồng hỗ trợ lớn.&lt;/p&gt;&#xA;&lt;p&gt;Được sử dụng trong các dự án lớn như hệ thống ngân hàng, thương mại điện tử và phát triển Android.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Các Công Cụ Quan Trọng Khi Học Java</title>
-      <link>https://example.org/posts/post8/</link>
+      <link>http://localhost:1313/posts/post8/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:18 +0700</pubDate>
-      <guid>https://example.org/posts/post8/</guid>
+      <guid>http://localhost:1313/posts/post8/</guid>
       <description>&lt;p&gt;IDE phổ biến: IntelliJ IDEA, Eclipse, NetBeans.&lt;/p&gt;&#xA;&lt;p&gt;Công cụ build: Maven, Gradle.&lt;/p&gt;&#xA;&lt;p&gt;Quản lý phiên bản: Git.&lt;/p&gt;&#xA;&lt;p&gt;Testing:JUnit, Mockito.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cấu Trúc Cơ Bản Của Một Chương Trình Java</title>
-      <link>https://example.org/posts/post7/</link>
+      <link>http://localhost:1313/posts/post7/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:10 +0700</pubDate>
-      <guid>https://example.org/posts/post7/</guid>
+      <guid>http://localhost:1313/posts/post7/</guid>
       <description>&lt;p&gt;Trong lớp có phương thức &lt;strong&gt;main()&lt;/strong&gt; để làm điểm bắt đầu cho chương trình.&lt;/p&gt;&#xA;&lt;p&gt;Các câu lệnh được viết trong &lt;strong&gt;main()&lt;/strong&gt; và phải kết thúc bằng dấu &lt;strong&gt;;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính</title>
-      <link>https://example.org/posts/post6/</link>
+      <link>http://localhost:1313/posts/post6/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:07 +0700</pubDate>
-      <guid>https://example.org/posts/post6/</guid>
+      <guid>http://localhost:1313/posts/post6/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Encapsulation (Đóng gói):&lt;/strong&gt; Bảo vệ dữ liệu bằng cách sử dụng private và cung cấp getter/setter.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Inheritance (Kế thừa):&lt;/strong&gt; Lớp con kế thừa thuộc tính và phương thức từ lớp cha (extends).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Polymorphism (Đa hình):&lt;/strong&gt; Ghi đè phương thức (@Override) hoặc nạp chồng phương thức (cùng tên, khác tham số).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Abstraction (Trừu tượng):&lt;/strong&gt; Tạo lớp trừu tượng (abstract class) hoặc giao diện (interface) để định nghĩa các hành vi chung mà lớp con phải triển khai.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quản lý bộ nhớ trong Java </title>
-      <link>https://example.org/posts/post5/</link>
+      <link>http://localhost:1313/posts/post5/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:04 +0700</pubDate>
-      <guid>https://example.org/posts/post5/</guid>
+      <guid>http://localhost:1313/posts/post5/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Quản lý bộ nhớ trong Java đề cập đến việc phân bổ và giải phóng bộ nhớ cho các đối tượng Java trong các vùng được gọi là Stack và Heap. Java có một hệ thống giải phóng bộ nhớ tự động được gọi là Garbage Collector. Bài viết này trình bày một số khái niệm về quản lý bộ nhớ Java và hoạt động của Garbage Collector trong JVM.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Làm Việc Với API Và Frameworks</title>
-      <link>https://example.org/posts/post4/</link>
+      <link>http://localhost:1313/posts/post4/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:02 +0700</pubDate>
-      <guid>https://example.org/posts/post4/</guid>
+      <guid>http://localhost:1313/posts/post4/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Java Framework&lt;/strong&gt; là một bộ công cụ được xây dựng sẵn dành riêng cho ngôn ngữ lập trình Java, giúp software developer tạo ứng dụng dễ dàng và hiệu quả hơn. Nó cung cấp cấu trúc cơ bản và các chức năng cần thiết cho cả ứng dụng web và ứng dụng desktop Java.&lt;/p&gt;&#xA;&lt;p&gt;Hay nói cách khác, Java Framework là phần thân của các mã được xác định trước được các lập trình viên sử dụng để phát triển các ứng dụng trên web. Các Framework này trong quá trình phát triển Java là các lớp và hàm kiểm soát phần cứng. Chúng có chức năng xử lý các dữ liệu đầu vào và giao tiếp với các ứng dụng hệ thống. Các Java Framework chứa các mã và thư viện được viết sẵn giúp developer xây dựng một ứng dụng mà không cần phải viết tất cả mã riêng lẻ.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Xử Lý Lỗi Và Debug</title>
-      <link>https://example.org/posts/post3/</link>
+      <link>http://localhost:1313/posts/post3/</link>
       <pubDate>Mon, 30 Dec 2024 12:43:59 +0700</pubDate>
-      <guid>https://example.org/posts/post3/</guid>
+      <guid>http://localhost:1313/posts/post3/</guid>
       <description>&lt;h2 id=&#34;tìm-hiểu-về-debug---khái-niệm-cơ-bản-cho-lập-trình-viên&#34;&gt;Tìm hiểu về Debug - Khái niệm cơ bản cho lập trình viên&lt;/h2&gt;&#xA;&lt;p&gt;Debug là quá trình xác định, phân tích và sửa lỗi trong mã nguồn phần mềm. Trong Java, lỗi có thể từ lỗi cú pháp (phát hiện lúc biên dịch) đến lỗi logic (phát hiện lúc chạy), bottlenecks về hiệu suất hoặc sự cố chỉ xảy ra trong điều kiện cụ thể.&lt;/p&gt;&#xA;&lt;p&gt;Java Virtual Machine (JVM) cung cấp một số tính năng debug, và hầu hết các IDE hiện đại, chẳng hạn như IntelliJ IDEA và Eclipse, đều cung cấp các công cụ debug tích hợp giúp lập trình viên kiểm tra hoạt động của ứng dụng trong thời gian chạy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Làm Việc Với Multi-threading Và Concurrency</title>
-      <link>https://example.org/posts/post2/</link>
+      <link>http://localhost:1313/posts/post2/</link>
       <pubDate>Mon, 30 Dec 2024 12:43:57 +0700</pubDate>
-      <guid>https://example.org/posts/post2/</guid>
+      <guid>http://localhost:1313/posts/post2/</guid>
       <description>&lt;h2 id=&#34;thread-là-gì&#34;&gt;Thread là gì?&lt;/h2&gt;&#xA;&lt;p&gt;Thread (luồng) về cơ bản là một tiến trình con (sub-process). Một đơn vị xử lý nhỏ nhất của máy tính có thể thực hiện một công việc riêng biệt. Trong Java, các luồng được quản lý bởi máy ảo Java (JVM).&lt;/p&gt;&#xA;&lt;h2 id=&#34;multi-thread-là-gì&#34;&gt;Multi-thread là gì?&lt;/h2&gt;&#xA;&lt;p&gt;Multi-thread (đa luồng) là một tiến trình thực hiện nhiều luồng đồng thời. Một ứng dụng Java ngoài luồng chính có thể có các luồng khác thực thi đồng thời làm ứng dụng chạy nhanh và hiệu quả hơn.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hướng Đi Trong Sự Nghiệp Với Java</title>
-      <link>https://example.org/posts/post1/</link>
+      <link>http://localhost:1313/posts/post1/</link>
       <pubDate>Mon, 30 Dec 2024 12:41:44 +0700</pubDate>
-      <guid>https://example.org/posts/post1/</guid>
+      <guid>http://localhost:1313/posts/post1/</guid>
       <description>&lt;h2 id=&#34;phát-triển-ứng-dụng-di-động&#34;&gt;Phát triển ứng dụng di động:&lt;/h2&gt;&#xA;&lt;p&gt;Những lập trình viên Java có thể trở thành nhà phát triển ứng dụng di động bằng cách sử dụng Java ME cho các ứng dụng di động cơ bản hoặc Android Development Kit (Android SDK) để phát triển ứng dụng di động Android phức tạp.&lt;/p&gt;&#xA;&lt;h2 id=&#34;phát-triển-web&#34;&gt;Phát triển web:&lt;/h2&gt;&#xA;&lt;p&gt;Java là một trong những ngôn ngữ phổ biến cho phát triển ứng dụng web. Lập trình viên Java có thể học các framework web như Spring hoặc JavaServer Faces (JSF) để xây dựng các ứng dụng web mạnh mẽ và linh hoạt.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intro_java on My Blog</title>
-    <link>https://example.org/tags/intro_java/</link>
+    <link>http://localhost:1313/tags/intro_java/</link>
     <description>Recent content in Intro_java on My Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Dec 2024 12:44:21 +0700</lastBuildDate>
-    <atom:link href="https://example.org/tags/intro_java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/intro_java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tại Sao Nên Học Java?</title>
-      <link>https://example.org/posts/post9/</link>
+      <link>http://localhost:1313/posts/post9/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:21 +0700</pubDate>
-      <guid>https://example.org/posts/post9/</guid>
+      <guid>http://localhost:1313/posts/post9/</guid>
       <description>&lt;p&gt;Java có tính đa nền tảng nhờ vào Java Virtual Machine (JVM).&lt;/p&gt;&#xA;&lt;p&gt;Ngôn ngữ mạnh mẽ, dễ đọc, dễ học với cộng đồng hỗ trợ lớn.&lt;/p&gt;&#xA;&lt;p&gt;Được sử dụng trong các dự án lớn như hệ thống ngân hàng, thương mại điện tử và phát triển Android.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Các Công Cụ Quan Trọng Khi Học Java</title>
-      <link>https://example.org/posts/post8/</link>
+      <link>http://localhost:1313/posts/post8/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:18 +0700</pubDate>
-      <guid>https://example.org/posts/post8/</guid>
+      <guid>http://localhost:1313/posts/post8/</guid>
       <description>&lt;p&gt;IDE phổ biến: IntelliJ IDEA, Eclipse, NetBeans.&lt;/p&gt;&#xA;&lt;p&gt;Công cụ build: Maven, Gradle.&lt;/p&gt;&#xA;&lt;p&gt;Quản lý phiên bản: Git.&lt;/p&gt;&#xA;&lt;p&gt;Testing:JUnit, Mockito.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cấu Trúc Cơ Bản Của Một Chương Trình Java</title>
-      <link>https://example.org/posts/post7/</link>
+      <link>http://localhost:1313/posts/post7/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:10 +0700</pubDate>
-      <guid>https://example.org/posts/post7/</guid>
+      <guid>http://localhost:1313/posts/post7/</guid>
       <description>&lt;p&gt;Trong lớp có phương thức &lt;strong&gt;main()&lt;/strong&gt; để làm điểm bắt đầu cho chương trình.&lt;/p&gt;&#xA;&lt;p&gt;Các câu lệnh được viết trong &lt;strong&gt;main()&lt;/strong&gt; và phải kết thúc bằng dấu &lt;strong&gt;;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính</title>
-      <link>https://example.org/posts/post6/</link>
+      <link>http://localhost:1313/posts/post6/</link>
       <pubDate>Mon, 30 Dec 2024 12:44:07 +0700</pubDate>
-      <guid>https://example.org/posts/post6/</guid>
+      <guid>http://localhost:1313/posts/post6/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Encapsulation (Đóng gói):&lt;/strong&gt; Bảo vệ dữ liệu bằng cách sử dụng private và cung cấp getter/setter.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Inheritance (Kế thừa):&lt;/strong&gt; Lớp con kế thừa thuộc tính và phương thức từ lớp cha (extends).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Polymorphism (Đa hình):&lt;/strong&gt; Ghi đè phương thức (@Override) hoặc nạp chồng phương thức (cùng tên, khác tham số).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Abstraction (Trừu tượng):&lt;/strong&gt; Tạo lớp trừu tượng (abstract class) hoặc giao diện (interface) để định nghĩa các hành vi chung mà lớp con phải triển khai.&lt;/p&gt;</description>
     </item>
   </channel>

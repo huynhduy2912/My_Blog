@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortcodes on My Blog</title>
-    <link>https://example.org/shortcodes/</link>
+    <link>http://localhost:1313/shortcodes/</link>
     <description>Recent content in Shortcodes on My Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Dec 2024 12:00:12 +0700</lastBuildDate>
-    <atom:link href="https://example.org/shortcodes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tag_links</title>
-      <link>https://example.org/shortcodes/tag_links/</link>
-      <pubDate>Mon, 30 Dec 2024 12:00:12 +0700</pubDate>
-      <guid>https://example.org/shortcodes/tag_links/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/shortcodes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
