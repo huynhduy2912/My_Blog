@@ -47,11 +47,6 @@
     <loc>http://localhost:1313/posts/post1/</loc>
     <lastmod>2024-12-30T12:41:44+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/</loc>
-    <lastmod>2024-12-30T12:00:12+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/pages/</loc>
