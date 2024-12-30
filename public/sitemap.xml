@@ -2,60 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2024-12-30T12:44:21+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intro_java/</loc>
+    <loc>https://example.org/tags/intro_java/</loc>
     <lastmod>2024-12-30T12:44:21+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://example.org/posts/</loc>
     <lastmod>2024-12-30T12:44:21+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.org/tags/</loc>
     <lastmod>2024-12-30T12:44:21+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post9/</loc>
+    <loc>https://example.org/posts/post9/</loc>
     <lastmod>2024-12-30T12:44:21+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post8/</loc>
+    <loc>https://example.org/posts/post8/</loc>
     <lastmod>2024-12-30T12:44:18+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post7/</loc>
+    <loc>https://example.org/posts/post7/</loc>
     <lastmod>2024-12-30T12:44:10+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post6/</loc>
+    <loc>https://example.org/posts/post6/</loc>
     <lastmod>2024-12-30T12:44:07+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post5/</loc>
+    <loc>https://example.org/posts/post5/</loc>
     <lastmod>2024-12-30T12:44:04+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/work_java/</loc>
+    <loc>https://example.org/tags/work_java/</loc>
     <lastmod>2024-12-30T12:44:04+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post4/</loc>
+    <loc>https://example.org/posts/post4/</loc>
     <lastmod>2024-12-30T12:44:02+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post3/</loc>
+    <loc>https://example.org/posts/post3/</loc>
     <lastmod>2024-12-30T12:43:59+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post2/</loc>
+    <loc>https://example.org/posts/post2/</loc>
     <lastmod>2024-12-30T12:43:57+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/future/</loc>
+    <loc>https://example.org/tags/future/</loc>
     <lastmod>2024-12-30T12:41:44+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post1/</loc>
+    <loc>https://example.org/posts/post1/</loc>
     <lastmod>2024-12-30T12:41:44+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/shortcodes/</loc>
+    <loc>https://example.org/shortcodes/</loc>
     <lastmod>2024-12-30T12:00:12+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://example.org/shortcodes/tag_links/</loc>
+    <lastmod>2024-12-30T12:00:12+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.org/tags/hugo/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/about/</loc>
+    <loc>https://example.org/pages/</loc>
+  </url><url>
+    <loc>https://example.org/pages/about/</loc>
   </url>
 </urlset>

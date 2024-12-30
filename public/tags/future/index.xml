@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Future on My Blog</title>
-    <link>http://localhost:1313/tags/future/</link>
+    <link>https://example.org/tags/future/</link>
     <description>Recent content in Future on My Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Dec 2024 12:41:44 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/future/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/tags/future/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hướng Đi Trong Sự Nghiệp Với Java</title>
-      <link>http://localhost:1313/posts/post1/</link>
+      <link>https://example.org/posts/post1/</link>
       <pubDate>Mon, 30 Dec 2024 12:41:44 +0700</pubDate>
-      <guid>http://localhost:1313/posts/post1/</guid>
+      <guid>https://example.org/posts/post1/</guid>
       <description>&lt;h2 id=&#34;phát-triển-ứng-dụng-di-động&#34;&gt;Phát triển ứng dụng di động:&lt;/h2&gt;&#xA;&lt;p&gt;Những lập trình viên Java có thể trở thành nhà phát triển ứng dụng di động bằng cách sử dụng Java ME cho các ứng dụng di động cơ bản hoặc Android Development Kit (Android SDK) để phát triển ứng dụng di động Android phức tạp.&lt;/p&gt;&#xA;&lt;h2 id=&#34;phát-triển-web&#34;&gt;Phát triển web:&lt;/h2&gt;&#xA;&lt;p&gt;Java là một trong những ngôn ngữ phổ biến cho phát triển ứng dụng web. Lập trình viên Java có thể học các framework web như Spring hoặc JavaServer Faces (JSF) để xây dựng các ứng dụng web mạnh mẽ và linh hoạt.&lt;/p&gt;</description>
     </item>
   </channel>
