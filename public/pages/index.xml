@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on My Blog</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on My Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Profile</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Huỳnh Duy&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mã Số Sinh Viên: 2180606934&lt;/li&gt;&#xA;&lt;li&gt;Lớp: 21DTHC4&lt;/li&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;mailto:huynhduy3381@gmail.com&#34;&gt;huynhduy3381@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Số Điện Thoại: 09-123-4567&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>

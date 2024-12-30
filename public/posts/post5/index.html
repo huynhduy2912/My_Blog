@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - http://localhost:1313/">
+    <title>Quản lý bộ nhớ trong Java  | My Blog</title>
+    <meta name="description"
+        content="">
+    <meta property="og:url" content="http://localhost:1313/posts/post5/">
+  <meta property="og:site_name" content="My Blog">
+  <meta property="og:title" content="Quản lý bộ nhớ trong Java ">
+  <meta property="og:description" content="Giới thiệu Quản lý bộ nhớ trong Java đề cập đến việc phân bổ và giải phóng bộ nhớ cho các đối tượng Java trong các vùng được gọi là Stack và Heap. Java có một hệ thống giải phóng bộ nhớ tự động được gọi là Garbage Collector. Bài viết này trình bày một số khái niệm về quản lý bộ nhớ Java và hoạt động của Garbage Collector trong JVM.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-30T12:44:04+07:00">
+    <meta property="article:modified_time" content="2024-12-30T12:44:04+07:00">
+    <meta property="article:tag" content="Work_java">
+
+    
+  <meta itemprop="name" content="Quản lý bộ nhớ trong Java ">
+  <meta itemprop="description" content="Giới thiệu Quản lý bộ nhớ trong Java đề cập đến việc phân bổ và giải phóng bộ nhớ cho các đối tượng Java trong các vùng được gọi là Stack và Heap. Java có một hệ thống giải phóng bộ nhớ tự động được gọi là Garbage Collector. Bài viết này trình bày một số khái niệm về quản lý bộ nhớ Java và hoạt động của Garbage Collector trong JVM.">
+  <meta itemprop="datePublished" content="2024-12-30T12:44:04+07:00">
+  <meta itemprop="dateModified" content="2024-12-30T12:44:04+07:00">
+  <meta itemprop="wordCount" content="444">
+  <meta itemprop="keywords" content="Work_java">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/post5/">
+    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="My Blog" href="http://localhost:1313//atom.xml" />
+    <link rel="alternate" type="application/json" title="My Blog" href="http://localhost:1313//feed.json" />
+    <link rel="shortcut icon" type="image/png"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    
+    <style>
+        {
+                {
+                $styles.Content | safeCSS
+            }
+        }
+
+            {
+                {
+                $styles_extra.Content | safeCSS
+            }
+        }
+    </style>
+
+    
+    
+    
+    <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Quản lý bộ nhớ trong Java ",
+      "headline": "Quản lý bộ nhớ trong Java ",
+      "alternativeHeadline": "",
+      "description": "\u003ch2 id=\u0022giới-thiệu\u0022\u003eGiới thiệu\u003c\/h2\u003e\n\u003cp\u003eQuản lý bộ nhớ trong Java đề cập đến việc phân bổ và giải phóng bộ nhớ cho các đối tượng Java trong các vùng được gọi là Stack và Heap. Java có một hệ thống giải phóng bộ nhớ tự động được gọi là Garbage Collector. Bài viết này trình bày một số khái niệm về quản lý bộ nhớ Java và hoạt động của Garbage Collector trong JVM.\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http:\/\/localhost:1313\/posts\/post5\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "copyrightHolder" : "My Blog",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-12-30T12:44:04.00Z",
+      "datePublished": "2024-12-30T12:44:04.00Z",
+      "dateModified": "2024-12-30T12:44:04.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "My Blog",
+          "url": "http://localhost:1313/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "http:\/\/localhost:1313\/",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "http://localhost:1313/",
+      "url" : "http:\/\/localhost:1313\/posts\/post5\/",
+      "wordCount" : "444",
+      "genre" : [ "work_java" ],
+      "keywords" : [ "work_java" ]
+  }
+  </script>
+    
+
+</head>
+
+<body>
+  
+  <main id="main">
+    <div class="content">
+      <style>
+  .container {
+    text-align: right;
+  }
+
+  .skip-link {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .button {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(140, 230, 14);
+  }
+</style>
+<header>
+  <div style="display: flex;justify-content: space-between;">
+    <p style="padding: 0;margin: 0;">
+      <a href="http://localhost:1313/" style="color: black;">
+        <b style="font-size:large">My Blog</b>
+        <span class="text-stone-500 animate-blink">😇</span>
+      </a>
+    </p>
+    <div class="container" style="margin-right: 25px;">
+      <a class="skip-link button" href="../posts/">Posts</a>
+      <a class="skip-link button" href="../pages/about/">Profile</a>
+    </div>
+</header>
+</div>
+<hr class="hr-list" style="padding: 0;margin: 0">
+      <section>
+        <h2 class="post">Quản lý bộ nhớ trong Java </h2>
+        <h2 id="giới-thiệu">Giới thiệu</h2>
+<p>Quản lý bộ nhớ trong Java đề cập đến việc phân bổ và giải phóng bộ nhớ cho các đối tượng Java trong các vùng được gọi là Stack và Heap. Java có một hệ thống giải phóng bộ nhớ tự động được gọi là Garbage Collector. Bài viết này trình bày một số khái niệm về quản lý bộ nhớ Java và hoạt động của Garbage Collector trong JVM.</p>
+<h2 id="quản-lý-bộ-nhớ-trong-java-là-gì">Quản lý bộ nhớ trong Java là gì?</h2>
+<p>Quản lý bộ nhớ trong Java là quá trình phân bổ không gian bộ nhớ làm việc cho các đối tượng mới và loại bỏ đúng các đối tượng không được tham chiếu để tạo không gian cho các phân bổ đối tượng mới đó. Nhìn chung, các nhà phát triển Java không phải xử lý trực tiếp việc xử lý bộ nhớ trong Java vì Garbage Collector có nhiệm vụ xử lý giải phóng bộ nhớ và nó chạy tự động. Nhưng nhiều lần do xử lý tài nguyên không đúng cách từ mã, bộ nhớ mà các ứng dụng Java sử dụng cao hơn nhiều so với những gì Garbage Collections dọn dẹp và kết quả là xảy ra rò rỉ bộ nhớ và sau đó xảy ra nhu cầu điều chỉnh hiệu suất cổng thông tin để quản lý bộ nhớ phù hợp.</p>
+<h2 id="tại-sao-lập-trình-viên-phải-có-kiến-thức-về-quản-lý-bộ-nhớ-trong-java">Tại sao lập trình viên phải có kiến ​​thức về quản lý bộ nhớ trong Java?</h2>
+<p>Như chúng ta đã biết, bản thân Java quản lý bộ nhớ và không cần sự can thiệp đặc biệt nào của lập trình viên vì Garbage Collector có vai trò xóa các đối tượng không còn được ứng dụng sử dụng khỏi bộ nhớ làm việc. Vậy tại sao lập trình viên cần tìm hiểu về quản lý bộ nhớ tự động trong Java? Mặc dù được cho là tự động, Garbage Collector không đảm bảo giải phóng bộ nhớ/đối tượng vẫn được tham chiếu. Lập trình viên vô tình để lại các đối tượng được tham chiếu, ngay cả sau khi sử dụng xong, dẫn đến rò rỉ bộ nhớ hoặc các hậu quả khác mà Java Virtual Machine (JVM) không thể quản lý. Lập trình viên cần hiểu về quản lý bộ nhớ Java để viết các chương trình hiệu quả mà không bị rò rỉ bộ nhớ. Do đó, với tư cách là một lập trình viên, bạn cần biết đối tượng nào đủ điều kiện để thu gom rác tự động và đối tượng nào không đủ điều kiện để viết các chương trình hiệu quả và hiệu suất cao với rất ít khả năng bị sập.</p>
+
+        
+        <div class="post-date">
+          <span class="g time">December 30, 2024 </span> &#8729;
+           
+           <a href="http://localhost:1313/tags/work_java/">work_java</a>
+        </div>
+        
+      </section>
+      
+      
+      
+    </div>
+  </main>
+</body>
+
+</html>

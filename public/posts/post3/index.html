@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - http://localhost:1313/">
+    <title>Xử Lý Lỗi Và Debug | My Blog</title>
+    <meta name="description"
+        content="">
+    <meta property="og:url" content="http://localhost:1313/posts/post3/">
+  <meta property="og:site_name" content="My Blog">
+  <meta property="og:title" content="Xử Lý Lỗi Và Debug">
+  <meta property="og:description" content="Tìm hiểu về Debug - Khái niệm cơ bản cho lập trình viên Debug là quá trình xác định, phân tích và sửa lỗi trong mã nguồn phần mềm. Trong Java, lỗi có thể từ lỗi cú pháp (phát hiện lúc biên dịch) đến lỗi logic (phát hiện lúc chạy), bottlenecks về hiệu suất hoặc sự cố chỉ xảy ra trong điều kiện cụ thể.
+Java Virtual Machine (JVM) cung cấp một số tính năng debug, và hầu hết các IDE hiện đại, chẳng hạn như IntelliJ IDEA và Eclipse, đều cung cấp các công cụ debug tích hợp giúp lập trình viên kiểm tra hoạt động của ứng dụng trong thời gian chạy.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-30T12:43:59+07:00">
+    <meta property="article:modified_time" content="2024-12-30T12:43:59+07:00">
+    <meta property="article:tag" content="Work_java">
+
+    
+  <meta itemprop="name" content="Xử Lý Lỗi Và Debug">
+  <meta itemprop="description" content="Tìm hiểu về Debug - Khái niệm cơ bản cho lập trình viên Debug là quá trình xác định, phân tích và sửa lỗi trong mã nguồn phần mềm. Trong Java, lỗi có thể từ lỗi cú pháp (phát hiện lúc biên dịch) đến lỗi logic (phát hiện lúc chạy), bottlenecks về hiệu suất hoặc sự cố chỉ xảy ra trong điều kiện cụ thể.
+Java Virtual Machine (JVM) cung cấp một số tính năng debug, và hầu hết các IDE hiện đại, chẳng hạn như IntelliJ IDEA và Eclipse, đều cung cấp các công cụ debug tích hợp giúp lập trình viên kiểm tra hoạt động của ứng dụng trong thời gian chạy.">
+  <meta itemprop="datePublished" content="2024-12-30T12:43:59+07:00">
+  <meta itemprop="dateModified" content="2024-12-30T12:43:59+07:00">
+  <meta itemprop="wordCount" content="231">
+  <meta itemprop="keywords" content="Work_java">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/post3/">
+    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="My Blog" href="http://localhost:1313//atom.xml" />
+    <link rel="alternate" type="application/json" title="My Blog" href="http://localhost:1313//feed.json" />
+    <link rel="shortcut icon" type="image/png"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    
+    <style>
+        {
+                {
+                $styles.Content | safeCSS
+            }
+        }
+
+            {
+                {
+                $styles_extra.Content | safeCSS
+            }
+        }
+    </style>
+
+    
+    
+    
+    <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Xử Lý Lỗi Và Debug",
+      "headline": "Xử Lý Lỗi Và Debug",
+      "alternativeHeadline": "",
+      "description": "\u003ch2 id=\u0022tìm-hiểu-về-debug---khái-niệm-cơ-bản-cho-lập-trình-viên\u0022\u003eTìm hiểu về Debug - Khái niệm cơ bản cho lập trình viên\u003c\/h2\u003e\n\u003cp\u003eDebug là quá trình xác định, phân tích và sửa lỗi trong mã nguồn phần mềm. Trong Java, lỗi có thể từ lỗi cú pháp (phát hiện lúc biên dịch) đến lỗi logic (phát hiện lúc chạy), bottlenecks về hiệu suất hoặc sự cố chỉ xảy ra trong điều kiện cụ thể.\u003c\/p\u003e\n\u003cp\u003eJava Virtual Machine (JVM) cung cấp một số tính năng debug, và hầu hết các IDE hiện đại, chẳng hạn như IntelliJ IDEA và Eclipse, đều cung cấp các công cụ debug tích hợp giúp lập trình viên kiểm tra hoạt động của ứng dụng trong thời gian chạy.\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http:\/\/localhost:1313\/posts\/post3\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "copyrightHolder" : "My Blog",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-12-30T12:43:59.00Z",
+      "datePublished": "2024-12-30T12:43:59.00Z",
+      "dateModified": "2024-12-30T12:43:59.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "My Blog",
+          "url": "http://localhost:1313/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "http:\/\/localhost:1313\/",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "http://localhost:1313/",
+      "url" : "http:\/\/localhost:1313\/posts\/post3\/",
+      "wordCount" : "231",
+      "genre" : [ "work_java" ],
+      "keywords" : [ "work_java" ]
+  }
+  </script>
+    
+
+</head>
+
+<body>
+  
+  <main id="main">
+    <div class="content">
+      <style>
+  .container {
+    text-align: right;
+  }
+
+  .skip-link {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .button {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(140, 230, 14);
+  }
+</style>
+<header>
+  <div style="display: flex;justify-content: space-between;">
+    <p style="padding: 0;margin: 0;">
+      <a href="http://localhost:1313/" style="color: black;">
+        <b style="font-size:large">My Blog</b>
+        <span class="text-stone-500 animate-blink">😇</span>
+      </a>
+    </p>
+    <div class="container" style="margin-right: 25px;">
+      <a class="skip-link button" href="../posts/">Posts</a>
+      <a class="skip-link button" href="../pages/about/">Profile</a>
+    </div>
+</header>
+</div>
+<hr class="hr-list" style="padding: 0;margin: 0">
+      <section>
+        <h2 class="post">Xử Lý Lỗi Và Debug</h2>
+        <h2 id="tìm-hiểu-về-debug---khái-niệm-cơ-bản-cho-lập-trình-viên">Tìm hiểu về Debug - Khái niệm cơ bản cho lập trình viên</h2>
+<p>Debug là quá trình xác định, phân tích và sửa lỗi trong mã nguồn phần mềm. Trong Java, lỗi có thể từ lỗi cú pháp (phát hiện lúc biên dịch) đến lỗi logic (phát hiện lúc chạy), bottlenecks về hiệu suất hoặc sự cố chỉ xảy ra trong điều kiện cụ thể.</p>
+<p>Java Virtual Machine (JVM) cung cấp một số tính năng debug, và hầu hết các IDE hiện đại, chẳng hạn như IntelliJ IDEA và Eclipse, đều cung cấp các công cụ debug tích hợp giúp lập trình viên kiểm tra hoạt động của ứng dụng trong thời gian chạy.</p>
+<p><strong>Các công cụ Debug Java phổ biến - Hỗ trợ đắc lực cho lập trình viên</strong></p>
+<p>Dưới đây là một số công cụ debug Java phổ biến mà bạn có thể tham khảo:</p>
+<p>IntelliJ IDEA: Cung cấp trình debug mạnh mẽ với các tính năng như breakpoint, kiểm tra biến, thực thi từng bước và debug từ xa.</p>
+<p>Eclipse IDE: Một IDE Java được sử dụng rộng rãi với khả năng debug mạnh mẽ bao gồm thay thế mã nóng, debug luồng và đánh giá biểu thức.</p>
+<p>JDB (Java Debugger): Một công cụ dòng lệnh được cung cấp bởi JDK cho phép bạn debug các ứng dụng Java trong môi trường không có giao diện đồ họa.</p>
+
+        
+        <div class="post-date">
+          <span class="g time">December 30, 2024 </span> &#8729;
+           
+           <a href="http://localhost:1313/tags/work_java/">work_java</a>
+        </div>
+        
+      </section>
+      
+      
+      
+    </div>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - http://localhost:1313/">
+    <title>OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính | My Blog</title>
+    <meta name="description"
+        content="">
+    <meta property="og:url" content="http://localhost:1313/posts/post6/">
+  <meta property="og:site_name" content="My Blog">
+  <meta property="og:title" content="OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính">
+  <meta property="og:description" content="Encapsulation (Đóng gói): Bảo vệ dữ liệu bằng cách sử dụng private và cung cấp getter/setter.
+Inheritance (Kế thừa): Lớp con kế thừa thuộc tính và phương thức từ lớp cha (extends).
+Polymorphism (Đa hình): Ghi đè phương thức (@Override) hoặc nạp chồng phương thức (cùng tên, khác tham số).
+Abstraction (Trừu tượng): Tạo lớp trừu tượng (abstract class) hoặc giao diện (interface) để định nghĩa các hành vi chung mà lớp con phải triển khai.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-30T12:44:07+07:00">
+    <meta property="article:modified_time" content="2024-12-30T12:44:07+07:00">
+    <meta property="article:tag" content="Intro_java">
+
+    
+  <meta itemprop="name" content="OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính">
+  <meta itemprop="description" content="Encapsulation (Đóng gói): Bảo vệ dữ liệu bằng cách sử dụng private và cung cấp getter/setter.
+Inheritance (Kế thừa): Lớp con kế thừa thuộc tính và phương thức từ lớp cha (extends).
+Polymorphism (Đa hình): Ghi đè phương thức (@Override) hoặc nạp chồng phương thức (cùng tên, khác tham số).
+Abstraction (Trừu tượng): Tạo lớp trừu tượng (abstract class) hoặc giao diện (interface) để định nghĩa các hành vi chung mà lớp con phải triển khai.">
+  <meta itemprop="datePublished" content="2024-12-30T12:44:07+07:00">
+  <meta itemprop="dateModified" content="2024-12-30T12:44:07+07:00">
+  <meta itemprop="wordCount" content="76">
+  <meta itemprop="keywords" content="Intro_java">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/post6/">
+    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="My Blog" href="http://localhost:1313//atom.xml" />
+    <link rel="alternate" type="application/json" title="My Blog" href="http://localhost:1313//feed.json" />
+    <link rel="shortcut icon" type="image/png"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    
+    <style>
+        {
+                {
+                $styles.Content | safeCSS
+            }
+        }
+
+            {
+                {
+                $styles_extra.Content | safeCSS
+            }
+        }
+    </style>
+
+    
+    
+    
+    <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính",
+      "headline": "OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính",
+      "alternativeHeadline": "",
+      "description": "\u003cp\u003e\u003cstrong\u003eEncapsulation (Đóng gói):\u003c\/strong\u003e Bảo vệ dữ liệu bằng cách sử dụng private và cung cấp getter\/setter.\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eInheritance (Kế thừa):\u003c\/strong\u003e Lớp con kế thừa thuộc tính và phương thức từ lớp cha (extends).\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003ePolymorphism (Đa hình):\u003c\/strong\u003e Ghi đè phương thức (@Override) hoặc nạp chồng phương thức (cùng tên, khác tham số).\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eAbstraction (Trừu tượng):\u003c\/strong\u003e Tạo lớp trừu tượng (abstract class) hoặc giao diện (interface) để định nghĩa các hành vi chung mà lớp con phải triển khai.\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http:\/\/localhost:1313\/posts\/post6\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": "Huynh Duy"
+      },
+      "copyrightHolder" : "My Blog",
+      "copyrightYear" : "2024",
+      "dateCreated": "2024-12-30T12:44:07.00Z",
+      "datePublished": "2024-12-30T12:44:07.00Z",
+      "dateModified": "2024-12-30T12:44:07.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "My Blog",
+          "url": "http://localhost:1313/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "http:\/\/localhost:1313\/",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "http://localhost:1313/",
+      "url" : "http:\/\/localhost:1313\/posts\/post6\/",
+      "wordCount" : "76",
+      "genre" : [ "intro_java" ],
+      "keywords" : [ "intro_java" ]
+  }
+  </script>
+    
+
+</head>
+
+<body>
+  
+  <main id="main">
+    <div class="content">
+      <style>
+  .container {
+    text-align: right;
+  }
+
+  .skip-link {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .button {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(140, 230, 14);
+  }
+</style>
+<header>
+  <div style="display: flex;justify-content: space-between;">
+    <p style="padding: 0;margin: 0;">
+      <a href="http://localhost:1313/" style="color: black;">
+        <b style="font-size:large">My Blog</b>
+        <span class="text-stone-500 animate-blink">😇</span>
+      </a>
+    </p>
+    <div class="container" style="margin-right: 25px;">
+      <a class="skip-link button" href="../posts/">Posts</a>
+      <a class="skip-link button" href="../pages/about/">Profile</a>
+    </div>
+</header>
+</div>
+<hr class="hr-list" style="padding: 0;margin: 0">
+      <section>
+        <h2 class="post">OOP (Lập trình hướng đối tượng) trong Java gồm 4 nguyên lý chính</h2>
+        <p><strong>Encapsulation (Đóng gói):</strong> Bảo vệ dữ liệu bằng cách sử dụng private và cung cấp getter/setter.</p>
+<p><strong>Inheritance (Kế thừa):</strong> Lớp con kế thừa thuộc tính và phương thức từ lớp cha (extends).</p>
+<p><strong>Polymorphism (Đa hình):</strong> Ghi đè phương thức (@Override) hoặc nạp chồng phương thức (cùng tên, khác tham số).</p>
+<p><strong>Abstraction (Trừu tượng):</strong> Tạo lớp trừu tượng (abstract class) hoặc giao diện (interface) để định nghĩa các hành vi chung mà lớp con phải triển khai.</p>
+
+        
+        <div class="post-date">
+          <span class="g time">December 30, 2024 </span> &#8729;
+           
+           <a href="http://localhost:1313/tags/intro_java/">intro_java</a>
+        </div>
+        
+      </section>
+      
+      
+      
+    </div>
+  </main>
+</body>
+
+</html>

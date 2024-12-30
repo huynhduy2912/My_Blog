@@ -1,0 +1,41 @@
+<style>
+  .container {
+    text-align: right;
+  }
+
+  .skip-link {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .button {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(140, 230, 14);
+  }
+</style>
+<header>
+  <div style="display: flex;justify-content: space-between;">
+    <p style="padding: 0;margin: 0;">
+      <a href="{{ .Site.BaseURL }}" style="color: black;">
+        <b style="font-size:large">{{ .Site.Title }}</b>
+        <span class="text-stone-500 animate-blink">😇</span>
+      </a>
+    </p>
+    <div class="container" style="margin-right: 25px;">
+      <a class="skip-link button" href="../posts/">Posts</a>
+      <a class="skip-link button" href="../pages/about/">Profile</a>
+    </div>
+</header>
+</div>
+<hr class="hr-list" style="padding: 0;margin: 0">

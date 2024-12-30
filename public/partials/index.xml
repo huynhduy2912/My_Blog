@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partials on My Blog</title>
+    <link>http://localhost:1313/partials/</link>
+    <description>Recent content in Partials on My Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2024 11:41:17 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/partials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Header</title>
+      <link>http://localhost:1313/partials/header/</link>
+      <pubDate>Mon, 30 Dec 2024 11:41:17 +0700</pubDate>
+      <guid>http://localhost:1313/partials/header/</guid>
+      <description>&lt;p&gt;123&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

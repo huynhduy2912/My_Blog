@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work_java on My Blog</title>
+    <link>http://localhost:1313/tags/work_java/</link>
+    <description>Recent content in Work_java on My Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2024 12:44:04 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/work_java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quản lý bộ nhớ trong Java </title>
+      <link>http://localhost:1313/posts/post5/</link>
+      <pubDate>Mon, 30 Dec 2024 12:44:04 +0700</pubDate>
+      <guid>http://localhost:1313/posts/post5/</guid>
+      <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Quản lý bộ nhớ trong Java đề cập đến việc phân bổ và giải phóng bộ nhớ cho các đối tượng Java trong các vùng được gọi là Stack và Heap. Java có một hệ thống giải phóng bộ nhớ tự động được gọi là Garbage Collector. Bài viết này trình bày một số khái niệm về quản lý bộ nhớ Java và hoạt động của Garbage Collector trong JVM.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Làm Việc Với API Và Frameworks</title>
+      <link>http://localhost:1313/posts/post4/</link>
+      <pubDate>Mon, 30 Dec 2024 12:44:02 +0700</pubDate>
+      <guid>http://localhost:1313/posts/post4/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Java Framework&lt;/strong&gt; là một bộ công cụ được xây dựng sẵn dành riêng cho ngôn ngữ lập trình Java, giúp software developer tạo ứng dụng dễ dàng và hiệu quả hơn. Nó cung cấp cấu trúc cơ bản và các chức năng cần thiết cho cả ứng dụng web và ứng dụng desktop Java.&lt;/p&gt;&#xA;&lt;p&gt;Hay nói cách khác, Java Framework là phần thân của các mã được xác định trước được các lập trình viên sử dụng để phát triển các ứng dụng trên web. Các Framework này trong quá trình phát triển Java là các lớp và hàm kiểm soát phần cứng. Chúng có chức năng xử lý các dữ liệu đầu vào và giao tiếp với các ứng dụng hệ thống. Các Java Framework chứa các mã và thư viện được viết sẵn giúp developer xây dựng một ứng dụng mà không cần phải viết tất cả mã riêng lẻ.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xử Lý Lỗi Và Debug</title>
+      <link>http://localhost:1313/posts/post3/</link>
+      <pubDate>Mon, 30 Dec 2024 12:43:59 +0700</pubDate>
+      <guid>http://localhost:1313/posts/post3/</guid>
+      <description>&lt;h2 id=&#34;tìm-hiểu-về-debug---khái-niệm-cơ-bản-cho-lập-trình-viên&#34;&gt;Tìm hiểu về Debug - Khái niệm cơ bản cho lập trình viên&lt;/h2&gt;&#xA;&lt;p&gt;Debug là quá trình xác định, phân tích và sửa lỗi trong mã nguồn phần mềm. Trong Java, lỗi có thể từ lỗi cú pháp (phát hiện lúc biên dịch) đến lỗi logic (phát hiện lúc chạy), bottlenecks về hiệu suất hoặc sự cố chỉ xảy ra trong điều kiện cụ thể.&lt;/p&gt;&#xA;&lt;p&gt;Java Virtual Machine (JVM) cung cấp một số tính năng debug, và hầu hết các IDE hiện đại, chẳng hạn như IntelliJ IDEA và Eclipse, đều cung cấp các công cụ debug tích hợp giúp lập trình viên kiểm tra hoạt động của ứng dụng trong thời gian chạy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Làm Việc Với Multi-threading Và Concurrency</title>
+      <link>http://localhost:1313/posts/post2/</link>
+      <pubDate>Mon, 30 Dec 2024 12:43:57 +0700</pubDate>
+      <guid>http://localhost:1313/posts/post2/</guid>
+      <description>&lt;h2 id=&#34;thread-là-gì&#34;&gt;Thread là gì?&lt;/h2&gt;&#xA;&lt;p&gt;Thread (luồng) về cơ bản là một tiến trình con (sub-process). Một đơn vị xử lý nhỏ nhất của máy tính có thể thực hiện một công việc riêng biệt. Trong Java, các luồng được quản lý bởi máy ảo Java (JVM).&lt;/p&gt;&#xA;&lt;h2 id=&#34;multi-thread-là-gì&#34;&gt;Multi-thread là gì?&lt;/h2&gt;&#xA;&lt;p&gt;Multi-thread (đa luồng) là một tiến trình thực hiện nhiều luồng đồng thời. Một ứng dụng Java ngoài luồng chính có thể có các luồng khác thực thi đồng thời làm ứng dụng chạy nhanh và hiệu quả hơn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
